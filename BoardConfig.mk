@@ -2,7 +2,9 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
--include device/lenovo/sm8150-common/BoardConfigCommon.mk
+
+# Inherit from sm8150-common
+include device/lenovo/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := lenovo
 
@@ -24,5 +26,5 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-03-01
 
-# Inherit from the proprietary version
--include vendor/lenovo/heart/BoardConfigVendor.mk
+# Inherit the proprietary files
+include vendor/lenovo/heart/BoardConfigVendor.mk

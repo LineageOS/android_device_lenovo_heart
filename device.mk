@@ -3,10 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lenovo/heart/heart-vendor.mk)
-
-# sm8150-common
+# Inherit from sm8150-common
 $(call inherit-product, device/lenovo/sm8150-common/common.mk)
 
 # Overlays
@@ -64,3 +61,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.lenovo_heart
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/lenovo/heart/heart-vendor.mk)
