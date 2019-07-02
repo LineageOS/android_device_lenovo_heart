@@ -22,5 +22,10 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
 endif
 
+# Fingerprint
+SOONG_CONFIG_LENOVO_MSMNILE_FOD_POS_X = 444
+SOONG_CONFIG_LENOVO_MSMNILE_FOD_POS_Y = 1605
+SOONG_CONFIG_LENOVO_MSMNILE_FOD_SIZE = 192
+
 # Inherit from the proprietary version
 -include vendor/lenovo/heart/BoardConfigVendor.mk
