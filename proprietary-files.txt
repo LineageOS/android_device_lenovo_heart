@@ -345,3 +345,7 @@ vendor/lib64/android.hardware.sensors@2.0-impl.so
 # Touchscreen firmware
 vendor/firmware/goodix_cfg_group.bin
 vendor/firmware/goodix_firmware.bin
+
+# Touchscreen firmware (recovery)
+vendor/firmware/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_group.bin
+vendor/firmware/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin
