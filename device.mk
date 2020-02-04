@@ -10,6 +10,10 @@ $(call inherit-product-if-exists, vendor/lenovo/heart/heart-vendor.mk)
 # sm8150-common
 $(call inherit-product, device/lenovo/sm8150-common/common.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
@@ -40,6 +44,10 @@ PRODUCT_PACKAGES += \
     Tag \
     vendor.nxp.nxpese@1.0:64 \
     vendor.nxp.nxpnfc@1.0:64
+
+# Slider handler
+PRODUCT_PACKAGES += \
+    KeyHandler
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
