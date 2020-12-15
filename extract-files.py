@@ -16,6 +16,8 @@ from extract_utils.main import (
 blob_fixups: blob_fixups_user_type = {
     ('vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so', 'vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so', 'vendor/lib64/libgoodixhwfingerprint.so'): blob_fixup()
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
+    'vendor/lib64/hw/camera.qcom.so': blob_fixup()
+        .add_needed('libcomparetf2_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
