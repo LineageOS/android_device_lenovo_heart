@@ -1,0 +1,9 @@
+on property:vendor.audio.pa.cp.calibration=1
+    chmod 0644 /mnt/vendor/persist/factory/audio/spk_acc
+    write /mnt/vendor/persist/factory/audio/spk_cal_complete 1
+    copy /mnt/vendor/persist/factory/audio/spk_acc /data/vendor/audio/spk_acc
+    chmod 0770 /data/vendor/audio/spk_acc
+    chown media audio /data/vendor/audio/spk_acc
+
+on property:vendor.audio.pa.cp.calibration=0
+    write /mnt/vendor/persist/factory/audio/spk_cal_complete 0
