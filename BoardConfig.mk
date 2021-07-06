@@ -27,5 +27,8 @@ SOONG_CONFIG_LENOVO_MSMNILE_FOD_POS_X = 444
 SOONG_CONFIG_LENOVO_MSMNILE_FOD_POS_Y = 1605
 SOONG_CONFIG_LENOVO_MSMNILE_FOD_SIZE = 192
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/double_tap_enable"
+
 # Inherit from the proprietary version
 -include vendor/lenovo/heart/BoardConfigVendor.mk
