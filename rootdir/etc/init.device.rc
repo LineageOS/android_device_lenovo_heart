@@ -30,3 +30,6 @@ on boot
     chown system system /mnt/vendor/persist/factory/audio/spk_acc
 
     mkdir /data/vendor/wifi/wigig_hostapd 0770 wifi wifi
+
+on post-fs-data
+    mkdir /data/vendor/nfc 0770 nfc nfc
