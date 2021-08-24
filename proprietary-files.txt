@@ -305,3 +305,7 @@ vendor/bin/hw/android.hardware.sensors@2.0-service
 vendor/etc/init/android.hardware.sensors@2.0-service.rc
 vendor/lib/android.hardware.sensors@2.0-impl.so
 vendor/lib64/android.hardware.sensors@2.0-impl.so
+
+# Touchscreen firmware
+vendor/firmware/goodix_cfg_group.bin
+vendor/firmware/goodix_firmware.bin
