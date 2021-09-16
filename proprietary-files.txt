@@ -259,10 +259,10 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|e680d40d0e6
 vendor/lib64/vendor.goodix.extend.service@2.0.so|fb058aa41020cefa95fe5d0f73f299714241e4b1
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|367d22d272f32de24da547e03f093a4f9dec4556
 
-# NFC
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp.conf
-vendor/lib/libpn553_fw.so
+# NFC - from vayu_global-user 11 RKQ1.200826.002 V12.5.3.0.RJUMIXM release-keys
+vendor/etc/libnfc-nci.conf|b9536ba10090d460df8a332331225cd279619583
+vendor/etc/libnfc-nxp.conf|de7006d8e7558af82b220a18d85883417f9e7002
+vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
