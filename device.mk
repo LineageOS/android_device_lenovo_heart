@@ -52,9 +52,9 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag \
 
-# Slider handler
+# Slider settings
 PRODUCT_PACKAGES += \
-    KeyHandler
+    DeviceSettings
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
