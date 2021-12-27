@@ -248,15 +248,12 @@ vendor/firmware/cs47l35-dsp3-karaoke-vocals.bin
 vendor/firmware/cs47l35-dsp3-karaoke-vocals.wmfw
 
 # Fingerprint - from heart - L78032_CN_ZUI_11.5.223_ST_200401
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|a819408eba50a38fc0b5636bd6f8fc726a555f7e
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|a074aa25cbb5e7aab9d2b8cabea56992632ab685
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|38b7de2549454337435f935abdddabdc322d2305
-vendor/lib64/hw/fingerprint.default.so|bb55c8f8fb56ea2f4e9b9673cc21b362f8ab5c30
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so|bb55c8f8fb56ea2f4e9b9673cc21b362f8ab5c30
 vendor/lib64/libgf_ca.so|c1662fb3bbd161874542455879043b675b339a76
 vendor/lib64/libgf_hal.so|cc0741579dbb24e329ad33f454c203eb9b973eee
 vendor/lib64/libgoodixhwfingerprint.so|d846d3ffe4961286a97f8329e1c813bcef23de5a
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|e680d40d0e6f3e89fc9e34f24170b6204ad3a24d
-vendor/lib64/vendor.goodix.extend.service@2.0.so|fb058aa41020cefa95fe5d0f73f299714241e4b1
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|367d22d272f32de24da547e03f093a4f9dec4556
 
 # NFC - from vayu_global-user 11 RKQ1.200826.002 V12.5.3.0.RJUMIXM release-keys
