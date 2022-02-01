@@ -50,7 +50,11 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
     SecureElement \
-    Tag \
+    Tag
+
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0.vendor
 
 # Slider handler
 PRODUCT_PACKAGES += \
