@@ -29,5 +29,8 @@ TARGET_USES_NQ_NFC := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/double_tap_enable"
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 -include vendor/lenovo/heart/BoardConfigVendor.mk
