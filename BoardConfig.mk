@@ -19,9 +19,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_KERNEL_CONFIG += vendor/lenovo/heart.config
 TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/double_tap_enable"
 
