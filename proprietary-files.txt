@@ -253,7 +253,7 @@ vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix_fod.ms
 vendor/lib64/libgf_ca.so|c1662fb3bbd161874542455879043b675b339a76
 vendor/lib64/libgf_hal.so|cc0741579dbb24e329ad33f454c203eb9b973eee
 vendor/lib64/libgoodixhwfingerprint.so|d846d3ffe4961286a97f8329e1c813bcef23de5a
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|e680d40d0e6f3e89fc9e34f24170b6204ad3a24d
+vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|851ceb21e3d59ebbe633fa47cc9e3fd15af4cc2f
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|367d22d272f32de24da547e03f093a4f9dec4556
 
 # NFC - from vayu_global-user 11 RKQ1.200826.002 V12.5.3.0.RJUMIXM release-keys
