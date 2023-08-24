@@ -24,6 +24,7 @@ module = ExtractUtilsModule(
     'heart',
     'lenovo',
     blob_fixups=blob_fixups,
+    add_firmware_proprietary_file=True,
     check_elf=False,
 )
 
