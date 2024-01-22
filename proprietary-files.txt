@@ -186,7 +186,7 @@ vendor/etc/libnfc-nci.conf|b9536ba10090d460df8a332331225cd279619583
 vendor/etc/libnfc-nxp.conf|de7006d8e7558af82b220a18d85883417f9e7002
 
 # NFC
-vendor/lib/libpn553_fw.so
+vendor/lib/libpn553_fw.so:vendor/lib64/libpn553_fw.so
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
