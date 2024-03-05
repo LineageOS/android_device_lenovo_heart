@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53799c62_7ae97635",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-03-05T22:20:13Z",
+      "side": 1,
+      "message": "Fixes NFC on Argentinian apps \"Carga SUBE\" and \"SUBE\"",
+      "revId": "b9d4df4588114720c51c69c72a3970a27f687090",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
