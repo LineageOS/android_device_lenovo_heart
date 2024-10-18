@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2021 The LineageOS Project
+# Copyright (C) 2019-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -18,9 +18,7 @@ PRODUCT_NAME := lineage_heart
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-BUILD_FINGERPRINT := "Lenovo/heart/heart:10/QKQ1.191014.001/11.5.247_200424:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="heart-user 10 QKQ1.191014.001 11.5.247_200424 release-keys" \
-    PRODUCT_NAME="heart" \
-    TARGET_DEVICE="heart"
+    BuildDesc="heart-user 10 QKQ1.191014.001 11.5.247_200424 release-keys" \
+    BuildFingerprint=Lenovo/heart/heart:10/QKQ1.191014.001/11.5.247_200424:user/release-keys \
+    DeviceProduct=heart
