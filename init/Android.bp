@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.device.rc",
+    src: "init.device.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_root {
+    name: "init.system.qcom.rc",
+    filename: "init.qcom.rc",
+    src: "init.system.qcom.rc",
+    install_in_root: true,
+}
