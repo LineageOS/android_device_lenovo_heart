@@ -50,7 +50,6 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
