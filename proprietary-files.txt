@@ -174,7 +174,7 @@ vendor/firmware/cs47l35-dsp3-karaoke-vocals.wmfw
 
 # Fingerprint - from heart - L78032_CN_ZUI_11.5.223_ST_200401
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|38b7de2549454337435f935abdddabdc322d2305
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so|bb55c8f8fb56ea2f4e9b9673cc21b362f8ab5c30
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so;FIX_SONAME|8d2b9db5df503aa35ddacdf449d6f841b3197f39
 vendor/lib64/libgf_ca.so|c1662fb3bbd161874542455879043b675b339a76
 vendor/lib64/libgf_hal.so|cc0741579dbb24e329ad33f454c203eb9b973eee
 vendor/lib64/libgoodixhwfingerprint.so|d846d3ffe4961286a97f8329e1c813bcef23de5a|6c935b726d703d20364abe5e6bf690e3eb110977
