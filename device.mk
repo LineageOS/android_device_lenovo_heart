@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2019-2025 The LineageOS Project
-#
+# Copyright (C) The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -61,4 +60,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.lenovo_heart
+    vendor.lineage.touch-service.lenovo_heart
