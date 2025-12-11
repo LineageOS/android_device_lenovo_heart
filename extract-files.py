@@ -1,6 +1,6 @@
 #!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
-# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -36,6 +36,13 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
         .add_needed('libcomparetf2_shim.so'),
+    (
+        'vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so',
+        'vendor/lib64/android.hardware.camera.provider@2.4-external.so',
+        'vendor/lib64/camera.device@3.4-external-impl.so',
+        'vendor/lib64/camera.device@3.5-external-impl.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
