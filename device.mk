@@ -58,9 +58,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch-service.lenovo_heart
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/heart/heart-vendor.mk)
