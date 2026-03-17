@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     Tag
 
 # Power
-$(call soong_config_set,qtipower,tap_to_wake_node,/sys/devices/virtual/touch/tp_dev/double_tap_enable)
+$(call soong_config_set,qtipower,tap_to_wake_node,/sys/devices/virtual/touch/tp_dev/gesture_on)
 
 # Sensors
 PRODUCT_PACKAGES += \
