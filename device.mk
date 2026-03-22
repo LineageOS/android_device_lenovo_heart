@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
     init.device.rc \
     init.system.qcom.rc
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/goodix_ts.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/goodix_ts.kl
+
 # Misc
 PRODUCT_PACKAGES += \
     libchrome \
