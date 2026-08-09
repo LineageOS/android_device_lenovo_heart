@@ -47,9 +47,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
-# Power
-$(call soong_config_set,qtipower,tap_to_wake_node,/sys/devices/virtual/touch/tp_dev/gesture_on)
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor
